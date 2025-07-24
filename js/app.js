@@ -15,6 +15,8 @@ function driveFullGame() {
     playRound();
     isInitial = false;
   }
+  let message=playerScore>pcScore?"You Won":"You Lost"
+  alert(message)
 }
 
 function playRound() {
